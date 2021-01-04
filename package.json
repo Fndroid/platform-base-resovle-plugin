@@ -1,11 +1,12 @@
 {
-  "name": "@Fndroid/platform-base-resovle-plugin",
-  "version": "1.0.4",
+  "name": "platform-base-resovle-plugin",
+  "version": "1.0.6",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf ./dist && tsc"
+    "build": "rm -rf ./dist && tsc",
+    "release": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -15,9 +16,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Fndroid/platform-base-resovle-plugin/issues"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "homepage": "https://github.com/Fndroid/platform-base-resovle-plugin#readme",
   "devDependencies": {

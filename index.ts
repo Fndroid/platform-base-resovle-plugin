@@ -4,7 +4,7 @@ export class PlatformResolvePlugin {
   source: any;
   target: any;
 
-  constructor(source: any, target: any) {
+  constructor(source: any = "resolve", target: any = "resolve") {
     this.source = source;
     this.target = target;
   }

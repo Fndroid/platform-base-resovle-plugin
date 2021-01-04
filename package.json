@@ -1,6 +1,6 @@
 {
-  "name": "platform-base-resovle-plugin",
-  "version": "1.0.0",
+  "name": "@Fndroid/platform-base-resovle-plugin",
+  "version": "1.0.4",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/Fndroid/platform-base-resovle-plugin/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   },
   "homepage": "https://github.com/Fndroid/platform-base-resovle-plugin#readme",
   "devDependencies": {
